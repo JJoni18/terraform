@@ -2,7 +2,7 @@
 # Proxmox connection
 ########################
 variable "pve_api_url" {
-  description = "Proxmox API URL (https://10.0.0.17:8006)"
+  description = "Proxmox API URL (https://xxxxx:8006)"
   type        = string
 }
 
@@ -171,4 +171,4 @@ variable "lxcs" {
     memory_mb   = number
     disk_size_gb = string      # e.g. "20"
   }))
-}
+q}
